@@ -2,7 +2,7 @@
 
 A modern and responsive personal website showcasing my skills as a web developer, including featured projects and contact options.
 
-## 📋 Developer Information
+## 📋 Coder Information
 
 - **Name:** Antonio Santiago
 - **Clan:** Macondo
