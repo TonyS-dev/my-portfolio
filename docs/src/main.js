@@ -1,14 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-
-    fetch('./contact.html')
-    .then(response => response.text())
-    .then(html => {
-        document.getElementById('contact-container').innerHTML = html;
-    })
-    .catch(error => {
-        console.error('Error loading contact section:', error);
-    });
-
     const navLinks = document.querySelectorAll(".nav-link");
     const sections = document.querySelectorAll(".content-section");
     const mainTitle = document.getElementById("main-title");

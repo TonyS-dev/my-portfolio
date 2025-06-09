@@ -1,208 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <title>Portfolio - Antonio Santiago</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Portfolio de Antonio Santiago, desarrollador web especializado en UI/UX, branding y sistemas de diseño.">
-    <link rel="icon" type="image/png" href="/api/placeholder/32/32">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.1/css/all.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/styles/index/styles.css">
-</head>
-    <body>
-        <div id="container">
-            <video id="background" src="assets/videos/background.mp4" autoplay muted loop 
-            poster="assets/img/poster.jpg"></video>
-            <!-- Left side -->
-            <aside>
-                <div>
-                    <h2>TonyS-dev</h2>
-                    <h1 id="main-title">Hello!<br><br>I'm Antonio Santiago.<br>I'm a Web Developer.</h1>
-                </div>
-                <ul class="footer-links">
-                    <li class="button-link">
-                        <a href="https://github.com/TonyS-dev" id="profile-link" target="_blank" rel="noopener">
-                            <i class="fa-brands fa-github icon"></i>GitHub
-                        </a>
-                    </li>
-                    <li class="button-link">
-                        <a href="https://codepen.io/TonyS-dev" target="_blank" rel="noopener">
-                            <i class="fa-brands fa-codepen icon"></i>CodePen
-                        </a>
-                    </li>
-                    <li class="button-link">
-                        <a href="mailto:santiagor.acarlos@gmail.com" target="_blank">
-                            <i class="fa-solid fa-at icon"></i>E-mail me
-                        </a>
-                    </li>
-                    <li class="button-link">
-                        <a href="tel:+573118612730">
-                            <i class="fa-solid fa-phone icon"></i>Call me
-                        </a>
-                    </li>
-                </ul>
-            </aside>
-            <!-- Right Side -->
-            <main>
-                <nav id="navbar">
-                    <ul class="links">
-                        <li><a class="nav-link active" href="#" data-section="home">Home</a></li>
-                        <li><a class="nav-link" href="#" data-section="about">About Me</a></li>
-                        <li><a class="nav-link" href="#" data-section="contact">Contact</a></li>
-                    </ul>
-                </nav>
-                <!-- Initial & home content -->
-                <section id="home-section" class="content-section active">
-                    <div class="hero-message">
-                        <p>Welcome to my digital space! I specialize in creating beautiful, functional web experiences that bring ideas to life.</p>
-                    </div>
-                    
-                    <img id="me" src="assets/img/me.jpg" alt="Myself">
+    <meta
+      name="description"
+      content="Portfolio of Antonio Santiago, web developer specialized in UI/UX, branding, and design systems."
+    />
+    <link rel="icon" type="image/png" href="/api/placeholder/32/32" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.5.1/css/all.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./../assets/styles/index/styles.css" />
+  </head>
+  <body>
+    <div id="container">
+      <video
+        id="background"
+        src="./../assets/videos/background.mp4"
+        autoplay
+        muted
+        loop
+        poster="./../assets/img/poster.webp"
+      ></video>
+      <!-- Left side -->
+      <aside>
+        <div class="wrapper">
+          <div>
+            <h2>TonyS-dev</h2>
+            <h1 id="main-title">
+              Hello!<br /><br />I'm Antonio Santiago.<br />I'm a Web Developer.
+            </h1>
+          </div>
+          <ul class="footer-links">
+            <li class="button-link">
+              <a
+                href="https://github.com/TonyS-dev"
+                id="profile-link"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fa-brands fa-github icon"></i>
+                <p>GitHub</p>
+              </a>
+            </li>
+            <li class="button-link">
+              <a
+                href="https://codepen.io/TonyS-dev"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fa-brands fa-codepen icon"></i>
+                <p>CodePen</p>
+              </a>
+            </li>
+            <li class="button-link">
+              <a href="mailto:santiagor.acarlos@gmail.com" target="_blank">
+                <i class="fa-solid fa-at icon"></i>
+                <p>E-mail me</p>
+              </a>
+            </li>
+            <li class="button-link">
+              <a href="tel:+573118612730">
+                <i class="fa-solid fa-phone icon"></i>
+                <p>Call me</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <!-- Right Side -->
+      <main>
+        <header>
+          <nav id="navbar">
+            <ul class="links">
+              <li>
+                <a class="nav-link active" href="#" data-section="home">Home</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#" data-section="about">About Me</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#" data-section="contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <!-- Initial & home content -->
+        <section id="home-section" class="content-section active">
+          <div class="hero-message">
+            <p>
+              Welcome to my digital space! I specialize in creating beautiful,
+              functional web experiences that bring ideas to life.
+            </p>
+          </div>
 
-                    <div class="services-grid">
-                        <div class="service-card">
-                            <h3><i class="fa-solid fa-palette"></i> UI/UX Design</h3>
-                            <p>Creating intuitive and visually appealing user interfaces that enhance user experience.</p>
-                        </div>
-                        <div class="service-card">
-                            <h3><i class="fa-solid fa-code"></i> Web Development</h3>
-                            <p>Building responsive, modern websites with clean code and optimal performance.</p>
-                        </div>
-                        <div class="service-card">
-                            <h3><i class="fa-solid fa-star"></i> Branding</h3>
-                            <p>Developing cohesive brand identities that tell your story and connect with your audience.</p>
-                        </div>
-                        <div class="service-card">
-                            <h3><i class="fa-solid fa-layer-group"></i> Design Systems</h3>
-                            <p>Creating scalable design systems that ensure consistency across all digital touchpoints.</p>
-                        </div>
-                    </div>
-                </section>
-                <!-- About Content -->
-                <section id="about-section" class="content-section">
-                    <div class="about-content">
-                        <div class="hero-message">
-                            <p>I'm a passionate web developer with expertise in modern technologies and design principles.</p>
-                        </div>
-                        
-                        <div>
-                            <h3>About Me</h3>
-                            <p class="about-paragraph">I'm an enthusiast developer and passionate about clean code, responsive design, and staying up-to-date with the latest technologies.</p>
-                            <p class="about-paragraph">My goal is to create the best application out there, creating projects that not only look great but also perform exceptionally well.</p>
-                        </div>
-                
-                        <div>
-                            <h3>Technical Skills</h3>
-                            <ul class="skills-list">
-                                <li>Python</li>
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>JavaScript</li>
-                                <li>React</li>
-                                <li>Git</li>
-                                <li>Responsive Design</li>
-                                <li>UI/UX Design</li>
-                            </ul>
-                        </div>
-                
-                        <div>
-                            <h3>Featured Projects</h3>
-                            <table class="projects-table">
-                                <thead>
-                                    <tr>
-                                        <th>Project</th>
-                                        <th>Technologies</th>
-                                        <th>Preview</th>
-                                        <th>Link</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>E-commerce Platform</td>
-                                        <td>React</td>
-                                        <td>
-                                            <img class="preview" src="assets/img/e-commerce-project.png" alt="e-commerce-project">
-                                        </td>
-                                        <td><a href="https://mavioscrochet.netlify.app/" target="_blank">View Project</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td>RPG Creature Search</td>
-                                        <td>HTML, CSS, JavaScript, API's</td>
-                                        <td>
-                                            <img class="preview" src="https://shots.codepen.io/username/pen/ZYGzRJR-512.jpg?version=1748002802" alt="JavaScript Project">
-                                        </td>
-                                        <td><a href="https://codepen.io/TonyS-dev/pen/ZYGzRJR" target="_blank">View Project</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Cash Register Project</td>
-                                        <td>HTML5, CSS3, JavaScript</td>
-                                        <td>
-                                            <img class="preview" src="https://shots.codepen.io/username/pen/EajYRQr-512.jpg?version=1748002925" alt="Cash Register Project">
-                                        </td>
-                                        <td><a href="https://codepen.io/TonyS-dev/pen/EajYRQr" target="_blank">View Project</a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </section>
-                <!-- Contact Section -->
-                <section id="contact-section" class="content-section">
-                    <div class="hero-message">
-                        <p>Let's work together! Tell me about your project and let's create something amazing.</p>
-                    </div>
-                    
-                    <div class="form-container">
-                        <form id="form" action="#" method="POST" autocomplete="off">
-                            <fieldset id="check-options">
-                                <legend>I'm interested in...</legend>
-                                <label for="ui-design" class="box-option">
-                                    <input id="ui-design" value="ui-design" type="checkbox" name="interests" class="inline">
-                                    <span>UI/UX design</span>
-                                </label>
-                                <label for="website" class="box-option">
-                                    <input id="website" value="website" type="checkbox" name="interests" class="inline">
-                                    <span>Website</span>
-                                </label>
-                                <label for="branding" class="box-option">
-                                    <input id="branding" value="branding" type="checkbox" name="interests" class="inline">
-                                    <span>Branding</span>
-                                </label>
-                                <label for="design-system" class="box-option">
-                                    <input id="design-system" value="design-system" type="checkbox" name="interests" class="inline">
-                                    <span>Design system</span>
-                                </label>
-                                <label for="other" class="box-option">
-                                    <input id="other" value="other" type="checkbox" name="interests" class="inline">
-                                    <span>Other</span>
-                                </label>
-                            </fieldset>
-                            
-                            <fieldset>
-                                <legend>Contact details</legend>
-                                <label for="name" class="input-label">
-                                    <input id="name" class="input-box" type="text" name="name" placeholder="Your name" required />
-                                </label>
-                                <label for="email" class="input-label">
-                                    <input id="email" name="email" class="input-box" type="email" placeholder="Your email" required />
-                                </label>
-                                <label for="further-info" class="input-label">
-                                    <textarea id="further-info" class="input-box" name="further-info" rows="4" placeholder="Tell us about your project" draggable="false"></textarea>
-                                </label>
-                            </fieldset>
-                            
-                            <input id="submit" type="submit" value="Send request"/>
-                        </form>
-                    </div>
-                </section>
-            </main>
-        </div>      
-        <footer>
-        <p class="copyright">Antonio Santiago ©2025</p>
-        </footer>
-        <script src="src/main.js"></script>
-    </body>
+          <img id="me" src="./../assets/img/me.webp" alt="Myself" />
+
+          <div class="services-grid">
+            <div class="service-card">
+              <h3><i class="fa-solid fa-palette"></i> UI/UX Design</h3>
+              <p>
+                Creating intuitive and visually appealing user interfaces that
+                enhance user experience.
+              </p>
+            </div>
+            <div class="service-card">
+              <h3><i class="fa-solid fa-code"></i> Web Development</h3>
+              <p>
+                Building responsive, modern websites with clean code and optimal
+                performance.
+              </p>
+            </div>
+            <div class="service-card">
+              <h3><i class="fa-solid fa-star"></i> Branding</h3>
+              <p>
+                Developing cohesive brand identities that tell your story and
+                connect with your audience.
+              </p>
+            </div>
+            <div class="service-card">
+              <h3><i class="fa-solid fa-layer-group"></i> Design Systems</h3>
+              <p>
+                Creating scalable design systems that ensure consistency across
+                all digital touchpoints.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- About Content -->
+        <section id="about-section" class="content-section">
+          <div class="about-content">
+            <div class="hero-message">
+              <p>
+                I'm a passionate web developer with expertise in modern
+                technologies and design principles.
+              </p>
+            </div>
+
+            <div>
+              <h3>About Me</h3>
+              <p class="about-paragraph">
+                I'm an enthusiast developer and passionate about clean code,
+                responsive design, and staying up-to-date with the latest
+                technologies.
+              </p>
+              <p class="about-paragraph">
+                My goal is to create the best application out there, creating
+                projects that not only look great but also perform exceptionally
+                well.
+              </p>
+            </div>
+
+            <div>
+              <h3>Technical Skills</h3>
+              <ul class="skills-list">
+                <li>Python</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Git</li>
+                <li>Responsive Design</li>
+                <li>UI/UX Design</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3>Featured Projects</h3>
+              <table class="projects-table">
+                <thead>
+                  <tr>
+                    <th>Project</th>
+                    <th>Technologies</th>
+                    <th>Preview</th>
+                    <th>Link</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>E-commerce Platform</td>
+                    <td>React</td>
+                    <td>
+                      <img
+                        class="preview"
+                        src="./../assets/img/e-commerce-project.webp"
+                        alt="e-commerce-project"
+                      />
+                    </td>
+                    <td>
+                      <a
+                        href="https://mavioscrochet.netlify.app/"
+                        target="_blank"
+                        >View Project</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>RPG Creature Search</td>
+                    <td>HTML, CSS, JavaScript, API's</td>
+                    <td>
+                      <img
+                        class="preview"
+                        src="./../assets/img/rpg-project.webp"
+                        alt="JavaScript Project"
+                      />
+                    </td>
+                    <td>
+                      <a
+                        href="https://codepen.io/TonyS-dev/pen/ZYGzRJR"
+                        target="_blank"
+                        >View Project</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Cash Register Project</td>
+                    <td>HTML5, CSS3, JavaScript</td>
+                    <td>
+                      <img
+                        class="preview"
+                        src="./../assets/img/cash-project.webp"
+                        alt="Cash Register Project"
+                      />
+                    </td>
+                    <td>
+                      <a
+                        href="https://codepen.io/TonyS-dev/pen/EajYRQr"
+                        target="_blank"
+                        >View Project</a
+                      >
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact-section" class="content-section">
+          <div class="hero-message">
+            <p>
+              Let's work together! Tell me about your project and let's create
+              something amazing.
+            </p>
+          </div>
+
+          <div class="form-container">
+            <form id="form" action="#" method="POST" autocomplete="off">
+              <fieldset id="check-options">
+                <legend>I'm interested in...</legend>
+                <label for="ui-design" class="box-option">
+                  <input
+                    id="ui-design"
+                    value="ui-design"
+                    type="checkbox"
+                    name="interests"
+                    class="inline"
+                  />
+                  <span>UI/UX design</span>
+                </label>
+                <label for="website" class="box-option">
+                  <input
+                    id="website"
+                    value="website"
+                    type="checkbox"
+                    name="interests"
+                    class="inline"
+                  />
+                  <span>Website</span>
+                </label>
+                <label for="branding" class="box-option">
+                  <input
+                    id="branding"
+                    value="branding"
+                    type="checkbox"
+                    name="interests"
+                    class="inline"
+                  />
+                  <span>Branding</span>
+                </label>
+                <label for="design-system" class="box-option">
+                  <input
+                    id="design-system"
+                    value="design-system"
+                    type="checkbox"
+                    name="interests"
+                    class="inline"
+                  />
+                  <span>Design system</span>
+                </label>
+                <label for="other" class="box-option">
+                  <input
+                    id="other"
+                    value="other"
+                    type="checkbox"
+                    name="interests"
+                    class="inline"
+                  />
+                  <span>Other</span>
+                </label>
+              </fieldset>
+
+              <fieldset>
+                <legend>Contact details</legend>
+                <label for="name" class="input-label">
+                  <input
+                    id="name"
+                    class="input-box"
+                    type="text"
+                    name="name"
+                    placeholder="Your name"
+                    required
+                  />
+                </label>
+                <label for="email" class="input-label">
+                  <input
+                    id="email"
+                    name="email"
+                    class="input-box"
+                    type="email"
+                    placeholder="Your email"
+                    required
+                  />
+                </label>
+                <label for="further-info" class="input-label">
+                  <textarea
+                    id="further-info"
+                    class="input-box"
+                    name="further-info"
+                    rows="4"
+                    placeholder="Tell us about your project"
+                    draggable="false"
+                  ></textarea>
+                </label>
+              </fieldset>
+
+              <input id="submit" type="submit" value="Send request" />
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer>
+      <p class="copyright">Antonio Santiago ©2025</p>
+    </footer>
+    <script src="./../src/main.js"></script>
+  </body>
 </html>
